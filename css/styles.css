@@ -51,18 +51,206 @@ body {
 }
 
 
-
-
-
 .container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px 0 15px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
+@media screen and (min-width: 320px) {
+    .container {
+        width: 428px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* @media screen and (min-width:768px) {
+    .container {
+        width: 736px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1158px;
+    }
+} */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+
+
+
+}
+
+.logo-header-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.mobile-menu-open-btn {
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    padding: 0;
+
+}
+
+.mobile-menu-open-btn-icon {
+    width: 30px;
+    height: 20px;
+}
+
 .page-header {
+    padding-top: 26px;
+    padding-bottom: 24px;
+}
+
+.mobile-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #FFFFFF;
+    
+}
+
+.mobile-menu-container {
+    position: relative;
+}
+
+.mobile-menu-close-btn {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #2E2F42;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+}
+
+.mobile-menu-close-icon {
+    width: 8px;
+    height: 8px;
+}
+
+.mobile-menu-list {
+    
+    
+}
+
+.mobile-menu-link {
+ font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.mobile-menu-item {
+    margin-bottom: 40px;
+}
+
+.mobile-menu-contact-item {
+    margin-bottom: 40px;
+}
+
+.mobile-contact-info {
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #4D5AE5;
+}
+
+.mobile-email-info {
+ font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+.mobile-menu-social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    
+}
+
+.mobile-social-icon-item {
+    width: 40px;
+    height: 40px;  
+}
+
+.social-list-mobile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu {
+    display: none;
+}
+
+.contact {
+    display: none;
+}
+
+
+
+
+
+/* .page-header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
@@ -95,34 +283,7 @@ body {
     margin-right: 10px;
 }
 
-.logo-header {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
-    padding: 24px 0;
 
-
-
-}
-
-.logo-header-studio {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
-}
 
 .menu-link {
     font-family: 'Roboto', sans-serif;
@@ -1058,4 +1219,4 @@ body {
 
 .additional-footer-svg {
     margin-left: 16px;
-}
+} */
