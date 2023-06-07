@@ -533,9 +533,7 @@ body {
             margin-right: 8px;
         }
         
-        .contact-form-checkmark-icon {
-            opacity: 0;
-        }
+        
         
         .modal-footer-text {
             font-family: 'Roboto' sans-serif;
@@ -985,9 +983,7 @@ body {
 
 @media screen and (min-width:768px) {
 
-
-
-    .container {
+     .container {
         width: 768px;
         margin-left: auto;
         margin-right: auto;
@@ -1267,8 +1263,8 @@ body {
         
         
         .contact-form-checkbox-wrapper {
+            display: block;
             
-            align-items: center;
             line-height: 1.17;
             letter-spacing: 0.04em;
             color: #8e8f99;
@@ -1303,11 +1299,12 @@ body {
             border-radius: 4px;
             cursor: pointer;
             margin-right: 8px;
+           
         }
         
-        .contact-form-checkmark-icon {
+        /* .contact-form-checkmark-icon {
             opacity: 0;
-        }
+        } */
         
         .modal-footer-text {
             font-family: 'Roboto' sans-serif;
@@ -1740,8 +1737,8 @@ body {
         .additional-footer-svg {
             margin-left: 16px;
         }
-
     }
+    
 
 
     @media screen and (min-width:1158px) {
@@ -2069,9 +2066,7 @@ body {
             
         }
         
-        .contact-form-checkmark-icon {
-            opacity: 0;
-        }
+        
         
         .modal-footer-text {
             font-family: 'Roboto' sans-serif;
