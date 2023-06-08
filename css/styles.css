@@ -65,7 +65,7 @@ body {
         min-width: 320px;
         margin-left: auto;
         margin-right: auto;
-        
+       width: 428px; 
     }
 
 }
@@ -1679,7 +1679,7 @@ body {
         }
 
         .additional-footer-container {
-            margin-left: 0;
+            margin-left: -45px;
 
         }
 
@@ -1697,6 +1697,7 @@ body {
 
         .additional-footer-form {
             display: flex;
+            gap: 0px;
             
         }
 
@@ -2250,6 +2251,7 @@ body {
         .section-work {
             padding-top: o;
             padding-bottom: 120px;
+            display: block;
         }
 
         .caption {
@@ -2399,6 +2401,7 @@ body {
         .footer-container {
             display: flex;
             align-items: baseline;
+            flex-direction: row;
         }
         
         /* .logo-footer-container {
@@ -2440,6 +2443,10 @@ body {
             letter-spacing: 0.02em;
             color: #F4F4FD;
             max-width: 264px;
+        }
+
+        .additional-container-wrap {
+         
         }
 
         .additional-container {
