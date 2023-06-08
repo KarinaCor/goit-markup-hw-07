@@ -65,6 +65,7 @@ body {
         min-width: 320px;
         margin-left: auto;
         margin-right: auto;
+        
     }
 
 }
@@ -289,6 +290,7 @@ body {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-bg2x.jpg);
         }
+    }
 
         .main-title {
             font-family: 'Roboto', sans-serif;
@@ -978,7 +980,7 @@ body {
             margin-left: 16px;
         }
 
-    }
+    
 
 
 
@@ -1032,7 +1034,7 @@ body {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -1063,6 +1065,7 @@ body {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-bg2x.jpg);
         }
+    }
 
         .main-title {
             font-family: 'Roboto', sans-serif;
@@ -1441,7 +1444,7 @@ body {
             line-height: 24px;
             letter-spacing: 0.02em;
             color: #434455;
-            margin-bottom: 72px;
+            
         }
 
         .section-work {
@@ -1560,6 +1563,7 @@ body {
         .customers-list-item {
             
             height: 88px;
+            width: 168px;
 
         }
 
@@ -1609,6 +1613,10 @@ body {
             margin-bottom: 16px;
         }
 
+        .logo-footer-container {
+            text-align: left;
+        }
+
         .logo-footer-studio {
             font-family: "Raleway", sans-serif;
             font-style: normal;
@@ -1639,6 +1647,7 @@ body {
             letter-spacing: 0.02em;
             color: #FFFFFF;
             margin-bottom: 16px;
+            text-align: left;
 
         }
 
@@ -1683,15 +1692,16 @@ body {
             letter-spacing: 0.02em;
             color: #FFFFFF;
             margin-bottom: 16px;
+            text-align: left;
         }
 
         .additional-footer-form {
             display: flex;
-            gap: 24px;
+            
         }
 
         .additional-footer-label {
-            margin-right: 24px;
+            /* margin-right: 24px; */
         }
 
         .additional-footer-input {
@@ -1714,7 +1724,7 @@ body {
         }
 
         .additional-footer-button {
-            min-width: 165px;
+            width: 165px;
             height: 40px;
             display: flex;
             justify-content: center;
@@ -1728,8 +1738,11 @@ body {
             border: none;
             border-radius: 4px;
             background: #4D5AE5;
-            padding: 8px 24px;
+            padding-left: 24px;
+            padding-right: 14px;
             cursor: pointer;
+            
+           
 
 
 
@@ -1752,6 +1765,7 @@ body {
         }
         
         .page-header {
+            padding: 0;
             display: flex;
             align-items: center;
             border-bottom: 1px solid #e7e9fc;
@@ -2387,9 +2401,9 @@ body {
             align-items: baseline;
         }
         
-        .logo-footer-container {
-            margin-right: 120px;
-        }
+        /* .logo-footer-container {
+            
+        } */
 
         .logo-footer {
             font-family: 'Raleway', sans-serif;
